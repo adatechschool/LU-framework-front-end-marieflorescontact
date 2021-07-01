@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;600;700;800&display=swap');
 
 .thumbnail h1, aside{
-    color: white;
-
+    color: #e3e3e3;
+}
+.thumbnail h1.focus, .thumbnail aside.focus{
+    color : white;
+    transition: 0.5s;
 }
 
 .thumbnail h1{

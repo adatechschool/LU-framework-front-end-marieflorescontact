@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;600;700;800&display=swap');
 
+
 .app{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgrey;
+    background-color: #808080;
 }
 
+.imageCover{
 
-
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.imageCover1{
+    background-image: url('../img/Beatmaker.png');
+}
+.imageCover2{
+    background-image: url('../img/Launch_countdown_timer.png');
+}
+.imageCover3{
+    background-image: url('../img/ip_adresse_tracker.png');
+}
+.imageCover4{
+    background-image: url('../img/flower.png');
+}
+.imageCover5{
+    background-image: url('../img/Jeu_de_pong_pico-8.png');
+}

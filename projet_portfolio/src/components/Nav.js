@@ -5,6 +5,7 @@ import {FaAlignJustify, FaEyeSlash} from 'react-icons/fa';
 import About from './About.js'
 import Modal from 'react-modal';
 import '../styles/Nav.css'
+import ScrollTop from "./ScrollTop";
 
 function Nav () {
     const [modalIsOpen, setModalIsOpen] = React.useState(false)
@@ -42,13 +43,13 @@ function Nav () {
                         >
                             <FaAlignJustify classname="icon" onClick = {setModalIsOpenToTrue}/>
                             <Modal isOpen={modalIsOpen}  onRequestClose={setModalIsOpenToFalse} className="modal isOpenModal">
-                                <FaEyeSlash classname="iconCloseModal" onClick = {setModalIsOpenToFalse} style ={iconStyles}/>
-                                <h1>My name is Marie Flores.<br/>
+                                {/*<FaEyeSlash classname="iconCloseModal" onClick = {setModalIsOpenToFalse} style ={iconStyles} />*/}
+                                <h1 onClick = {setModalIsOpenToFalse}>My name is Marie Flores.<br/>
                                 I'm a software developer based in Paris. I'm particularly interested in javascript, Node.JS, React.<br/>
                                 Find me on <a href ="https://github.com/marieflorescontact" target ="_blank" className="items">Github</a>, <a href ="https://www.linkedin.com/in/marie-flores-63110917/" target ="_blank" className="items">Linkedin</a> or <a href ="https://www.instagram.com/marieflorescontact/" target ="_blank" className="items">Instagram</a>. If you want to know more, don't hesitate to <a href ="mailto:marie.flores@student.adatechschool.fr
                                 " target ="_blank" className="items">get in touch!</a>
                                 </h1>
-
+                                {ScrollTop}
                             </Modal>
 
                         </Link>

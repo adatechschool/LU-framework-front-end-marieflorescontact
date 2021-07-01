@@ -7,15 +7,15 @@ import Projects from './components/Projects.js'
 import ScrollTop from "./components/ScrollTop";
 
 function App() {
-  return (
-    <div className="app">
+    return (
+        <div className="app" id="app">
 
-            <Nav id="contact" />
-            <Projects id="project" />
+            <Nav id="contact"/>
+            <Projects id="project"/>
             <About id="about"/>
             <ScrollTop/>
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
