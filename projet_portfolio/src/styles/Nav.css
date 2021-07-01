@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;600;700;800&display=swap');
+
+
+.navigation-sub .item{
+    color: white;
+    text-decoration:none;
+    padding: 10px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.7em;
+    font-weight: 700;
+    transition:150ms linear;
+
+}
+
+.navigation-sub{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 1rem;
+}
+.navigation{
+    position: fixed;
+    top: 0px;
+    left : 0px;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+.items{
+    position: relative;
+
+}
+
+.items:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 2px;
+    display: block;
+    margin-top: -2px;
+    right: 0;
+    background: white;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+}
+
+.items:hover:after{
+    width: 95%;
+    left: 0;
+    background: white;
+}
+
+.modal{
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px;
+    background-color: black;
+    height: 100%;
+
+}
+
+.modal .iconCloseModal{
+    align-self: center;
+    color: white;
+    background-color: white;
+}
+
+.modal a{
+    text-decoration:none;
+    color: white;
+}
+.modal h1{
+    font-size: 1.8em;
+    color :white;
+    line-height: 40px;
+}
+
