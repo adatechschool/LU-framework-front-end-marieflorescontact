@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&display=swap');
+
 
 .thumbnail h1, aside{
-    color: #e3e3e3;
+    color: #616161;
 }
 .thumbnail h1.focus, .thumbnail aside.focus{
     color : white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .thumbnail h1{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Cormorant', serif;
     font-size: 1.7em;
     font-weight: 600;
     margin: 0;
 }
 .thumbnail aside{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Cormorant', serif;
     font-size: 0.7em;
     font-weight: 300;
     margin-bottom: 2rem;

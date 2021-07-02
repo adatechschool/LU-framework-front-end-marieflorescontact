@@ -5,27 +5,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #808080;
-}
-
-.imageCover{
-
+    background-image: url('../static/MARIE_FLORES_MARRY_ME_tasse.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+
+/*
 .imageCover1{
-    background-image: url('../img/Beatmaker.png');
+    background-image: url('../img/MARIE_FLORES_colors_perfumes_NOMADE.jpg');
 }
 .imageCover2{
-    background-image: url('../img/Launch_countdown_timer.png');
+    background-image: url('../img/MARIE_FLORES_ORMAIE_BADABOUM_BRUMES.jpg');
 }
 .imageCover3{
-    background-image: url('../img/ip_adresse_tracker.png');
+    background-image: url('../img/MARIE_FLORES_FLEURS_14h59_2.jpeg');
 }
 .imageCover4{
     background-image: url('../img/flower.png');
 }
 .imageCover5{
-    background-image: url('../img/Jeu_de_pong_pico-8.png');
-}
+    background-image: url( '../img/MARIE_FLORES_MARRY_ME_tasse.jpg');
+}*/
